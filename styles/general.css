@@ -1,3 +1,8 @@
 body {
+    font-family: Inter, sans-serif;
     margin: 0;
+    padding-top: 80px;
+    background-color: #0a1120;
+    background-image: radial-gradient(600px circle at top center, rgba(56, 189, 248, 0.15), #0f172a);
+    background-attachment: fixed;
 }

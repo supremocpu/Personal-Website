@@ -2,12 +2,24 @@
     display: flex;
     flex-direction: row;
     height: 80px;
-    background-color: black;
+    border-bottom: 1px solid #c6c4c4;
+    background-color: rgba(0, 0, 0, 0.7);
     justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
 }
 .left-section {
-    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
     color: white;
+    padding-left: 25px;
 }
 
 .middle-section {
@@ -18,20 +30,45 @@
 .right-section{
     display: flex;
     flex-direction: row;
-    width: 300px;
+    width: 450px;
     justify-content: space-between;
     align-items: center;
-    padding-right: 15px;
+    padding-right: 40px;
 }
 
-.right-section, a {
+.right-section a {
     color: white;
-    background-color: black;
     border: none;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
 }
 
-.right-section, a:hover {
-    color: lightblue;
+.right-section a:hover {
+    color: rgb(59, 130, 246);
+    cursor: pointer;
+}
+
+.right-section .contact-button {
+    color: rgb(59, 130, 246);
+    border: 1px solid rgb(59, 130, 246);
+    display: inline-block;
+    padding: 9px 15px;
+    border-radius: 7px;
+    background-color: rgba(59, 130, 246, 0.1);
+}
+
+.right-section .contact-button:hover {
+    background-color: rgb(59, 130, 246);
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.logo:hover {
     cursor: pointer;
 }
