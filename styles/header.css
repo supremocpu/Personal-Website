@@ -3,7 +3,7 @@
     flex-direction: row;
     height: 80px;
     border-bottom: 1px solid #c6c4c4;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     justify-content: space-between;
 
     position: fixed;
@@ -70,5 +70,5 @@
 }
 
 .logo:hover {
-    cursor: pointer;
+    cursor: default;
 }

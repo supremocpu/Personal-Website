@@ -1,0 +1,104 @@
+#home {
+    text-align: center;
+    min-height: 100vh; /*Makes section take up the full height of the screen */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.internship-text-background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 335px;
+    background-color: rgba(38, 38, 38, 0.5);
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.pulsing-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    margin-right: 10px;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.85);
+    box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+  }
+
+  70% {
+    transform: scale(0.95);
+    /* Creates the expanding ring effect */
+    box-shadow: 0 0 0 15px rgba(76, 175, 80, 0);
+  }
+
+  100% {
+    transform: scale(0.85);
+    box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
+  }
+}
+
+.internship-text {
+    color: rgb(209, 213, 219);
+    font-family: "Fira Code", monospace;
+}
+
+.home-big-text p{
+    color: rgb(245, 245, 245);
+    font-size: 72px;
+    font-weight: 700;
+    margin: 3px;
+}
+
+.home-small-text  {
+    margin-bottom: 33px;
+}
+.home-small-text p {
+    color: rgb(83, 84, 96);
+    font-size: 24px;
+    font-weight: 300;
+    margin: 2px;
+}
+
+.github-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 51px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgb(67, 67, 67);
+    border-radius: 8px;
+    color: rgb(245, 245, 245);
+    font-weight: 300;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 100;
+
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.github-link:hover {
+    cursor: pointer;
+    border-color: rgb(161, 161, 161);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.github-logo {
+    width: 25px;
+    height: auto;
+    display: block;
+    padding-right: 10px;
+}

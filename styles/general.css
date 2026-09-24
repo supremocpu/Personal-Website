@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding-top: 80px;
     background-color: #0a1120;
-    background-image: radial-gradient(600px circle at top center, rgba(56, 189, 248, 0.15), #0f172a);
+    background-image:
+        radial-gradient(600px circle at top center, rgba(56, 189, 248, 0.15), transparent),
+        radial-gradient(800px circle at bottom right, rgba(139, 92, 246, 0.1), #0f172a);
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
