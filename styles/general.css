@@ -8,4 +8,5 @@ body {
         radial-gradient(800px circle at bottom right, rgba(139, 92, 246, 0.1), #0f172a);
     background-attachment: fixed;
     background-repeat: no-repeat;
+    height: 3000px;
 }
