@@ -2,6 +2,32 @@
     box-sizing: border-box;
 }
 
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.languages-box-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 156px;
+    width: 658px;
+    background-color: rgb(23, 23, 23);
+    color: rgb(245, 245, 245);
+    border: 1px solid rgb(38, 38, 38);
+    border-radius: 12px;
+}
+
+.languages-header {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding-left: 35px;
+    padding-top: 45px;
+}
 
 .line-2 {
     width: 100%;
