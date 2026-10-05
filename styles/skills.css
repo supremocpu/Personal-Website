@@ -6,27 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
-}
-
-.languages-box-field {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 156px;
-    width: 658px;
-    background-color: rgb(23, 23, 23);
-    color: rgb(245, 245, 245);
-    border: 1px solid rgb(38, 38, 38);
-    border-radius: 12px;
-}
-
-.languages-header {
-    display: flex;
-    width: 100%;
-    height: fit-content;
-    padding-left: 35px;
-    padding-top: 45px;
+    align-items: center;
 }
 
 .line-2 {
@@ -42,4 +22,96 @@
     font-size: 30px;
     font-weight: 700;
     padding: 80px 30px 30px;
+}
+
+.languages-box-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 658px;
+    background-color: rgb(23, 23, 23);
+    color: rgb(245, 245, 245);
+    border: 1px solid rgb(38, 38, 38);
+    border-radius: 12px;
+    padding: 30px 35px;
+    margin-bottom: 50px;
+}
+
+.languages-header {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+
+.languages-button-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+}
+
+.languages-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.languages-buttons button {
+    color: white;
+    background-color: rgb(10, 10, 10);
+    border: rgb(38, 38, 38) solid 1px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-family: "Fira Code", monospace;
+    margin-right: 10px;
+}
+
+.coursework-box-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 658px;
+    background-color: rgb(23, 23, 23);
+    color: rgb(245, 245, 245);
+    border: 1px solid rgb(38, 38, 38);
+    border-radius: 12px;
+    padding: 30px 35px;
+    margin-bottom: 30px;
+}
+
+.coursework-header {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+
+.coursework-button-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+}
+
+.coursework-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.coursework-buttons button {
+    color: white;
+    background-color: rgb(10, 10, 10);
+    border: rgb(38, 38, 38) solid 1px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-family: "Fira Code", monospace;
+    margin-right: 10px;
 }
