@@ -5,6 +5,7 @@
 #projects {
     width: 100%;
     background: radial-gradient(600px circle at 20% 20%, rgba(56,189,248,0.08), transparent), #070d18;
+    padding-bottom: 75px;
 }
 
 .sub-header-3 {
@@ -14,5 +15,51 @@
     font-size: 30px;
     font-weight: 700;
     padding: 80px 30px 40px;
+}
+
+.featured-projects-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: red 1px solid;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 500px;
+}
+
+.featured-project-1 {
+    width: 526px;
+    height: 433px;
+    border: rgb(38, 38, 38) 1px solid;
+    border-radius: 12px;
+}
+
+.picture-canvas-1 {
+    width: 100%;
+    height: 40%;
+
+    background: radial-gradient(
+            ellipse at top left,
+            rgba(100, 90, 190, 0.45),
+            transparent 75%
+    ),
+    linear-gradient(
+            135deg,
+            #302044 0%,
+            #21172f 50%,
+            #0d0b19 100%
+    );
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+    overflow: hidden;
+}
+
+.featured-text-1{
+    border: blue 1px solid;
+    width: 100%;
+    height: 60%;
 }
 

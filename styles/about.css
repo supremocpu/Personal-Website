@@ -26,6 +26,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
     color: rgb(209, 213, 219);
     font-size: 22px;
     padding-bottom: 100px;
@@ -33,8 +36,14 @@
     padding-right: 20px;
 }
 
+.about-me-box p {
+    flex: 1 1 400px;
+    min-width: 0;
+}
+
 .graduation-photo {
-    width: 400px;
+    flex: 0 1 400px;
+    width: 100%;
     height: 450px;
     object-fit: cover;
     border-radius: 20px;
