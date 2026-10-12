@@ -4,7 +4,12 @@
 
 #about {
     width: 100%;
-    background: radial-gradient(600px circle at 20% 20%, rgba(56,189,248,0.08), transparent), #070d18;
+    background: radial-gradient(
+        600px circle at 20% 20%,
+        rgba(56, 189, 248, 0.02),
+        transparent
+    ), #010309;
+
 }
 
 .line-1 {

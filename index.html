@@ -9,11 +9,14 @@
         <link rel="stylesheet" href="styles/about.css">
         <link rel="stylesheet" href="styles/skills.css">
         <link rel="stylesheet" href="styles/projects.css">
+        <link rel="stylesheet" href="styles/contact.css">
+        <script src="scripts/contact.js" defer></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
         <link rel="icon" type="image/png" style="border-radius: 20px" href="icons/Chip-Logo.png">
     </head>
 
     <body>
+
         <div class="header">
             <div class="left-section">
                 <div class="logo">
@@ -39,7 +42,6 @@
                 <div class="pulsing-dot"></div>
                 <div class="internship-text">Available for Summer Internships</div>
             </div>
-
             <div class="home-big-text">
                 <p>Hi, I'm
                     <span style="background: linear-gradient(to right, #00c6ff, #0072ff, #9246ff);
@@ -54,13 +56,11 @@
                 <p>Computer Science</p>
                 <p>Student.</p>
             </div>
-
             <div class="home-small-text">
                 <p>Passionate about building scalable applications, developing efficient </p>
                 <p>software, and expanding my knowledge of</p>
                 <p>cloud infrastructure</p>
             </div>
-
             <a class="github-link" target="_blank" href="https://github.com/supremocpu">
             <img class="github-logo" src="icons/github-logo.png" alt="Github Logo">
             GitHub</a>
@@ -174,11 +174,87 @@
                     <div class="picture-canvas-1">
 
                     </div>
-                    <div class="featured-text-1">
-
+                    <div class="featured-text-section-1">
+                        <div class="featured-header-1">
+                            <div class="title-1">Snack Attack</div>
+                            <a target="_blank" href="https://github.com/supremocpu/Snack-Attack">
+                            <img class="github-snack-attack" src="icons/github-logo.png" alt="Github Logo"></a>
+                            <a target="_blank" href="https://github.com/supremocpu/Snack-Attack/releases/tag/V.1.0">
+                            <img class="github-download-icon" src="icons/download-icon.png" alt="Download Icon"></a>
+                        </div>
+                        <div class="featured-text-1">
+                            Snack Attack is a simple endless runner arcade game built in Java.
+                            The goal is to catch as much food as possible while avoiding missed
+                            items. The longer you survive, the higher your score!
+                        </div>
+                        <div class="featured-footer-1">
+                            <button>Java</button>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="contact">
+            <div class="line-1"></div>
+            <div class="sub-header-4">
+                <span style="font-family: 'Courier New', monospace;
+                      font-variant-numeric: slashed-zero;
+                      color: rgb(59, 130, 246);
+                      letter-spacing: -3px;
+                      margin-right: 10px">
+                    04.
+                </span>
+                Get in touch
+            </div>
+
+             <p class="contact-description">
+                Have a question or want to work together?
+                Send me a message.
+            </p>
+
+            <form id="contact-form">
+                <div class="contact-inputs">
+                    <div class="input-group">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                            required
+                        >
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                     <input
+                         type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message..."
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" id="send-button">
+                    Send Message
+                </button>
+
+                <p id="form-status" role="status" aria-live="polite"></p>
+            </form>
         </section>
     </body>
 
